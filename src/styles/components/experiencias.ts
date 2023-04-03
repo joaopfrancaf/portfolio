@@ -27,7 +27,6 @@ export const StyledExperienciasDiv = styled('div', {
 
             p: {
                 fontSize: '$md',
-                lineHeight: '1.25rem'
             }
         }
     }
