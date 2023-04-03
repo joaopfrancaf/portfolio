@@ -1,10 +1,9 @@
-import Links from "@/components/links";
-import AvatarProfile from "../components/avatarprofile";
+import Tecnologias from "@/components/tecnologias";
 
 export default function Home() {
   return (
     <div>
-      <Links/>
+      <Tecnologias/>
     </div>
   )
 }
