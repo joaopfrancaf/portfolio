@@ -1,9 +1,9 @@
-import Experiencias from "@/components/experiencias";
+import SearchBar from "../components/searchbar";
 
 export default function Home() {
   return (
     <div>
-      <Experiencias/>
+      <SearchBar/>
     </div>
   )
 }

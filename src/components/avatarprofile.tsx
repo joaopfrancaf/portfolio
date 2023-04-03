@@ -11,5 +11,5 @@ export default function AvatarProfile() {
         <p>Full Stack Developer</p>
       </StyledAvatarDiv>
     )
-  }
+}
   
