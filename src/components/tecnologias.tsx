@@ -8,11 +8,11 @@ export default function Tecnologias() {
 
         <StyledDivContainer>
             <StyledDivItem>JavaScript</StyledDivItem>
-            <StyledDivItem>braaa</StyledDivItem>
-            <StyledDivItem>braaa</StyledDivItem>
-            <StyledDivItem>braaa</StyledDivItem>
-            <StyledDivItem>braaa</StyledDivItem>
-            <StyledDivItem>braaa</StyledDivItem>
+            <StyledDivItem>ReactJs</StyledDivItem>
+            <StyledDivItem>NodeJs</StyledDivItem>
+            <StyledDivItem>Git</StyledDivItem>
+            <StyledDivItem>HTML</StyledDivItem>
+            <StyledDivItem>Java</StyledDivItem>
             <StyledDivItem>braaa</StyledDivItem>
             <StyledDivItem>braaa</StyledDivItem>
             <StyledDivItem>braaa</StyledDivItem>

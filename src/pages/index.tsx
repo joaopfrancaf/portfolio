@@ -1,9 +1,9 @@
-import Tecnologias from "@/components/tecnologias";
+import Experiencias from "@/components/experiencias";
 
 export default function Home() {
   return (
     <div>
-      <Tecnologias/>
+      <Experiencias/>
     </div>
   )
 }

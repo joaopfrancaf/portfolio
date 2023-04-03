@@ -9,7 +9,8 @@ export const StyledTecnologiasDiv = styled('div', {
     padding:'2rem',
 
     span: {
-        fontSize: '$lg'
+        fontSize: '$lg',
+        fontWeight: '700'
     }
 })
 
@@ -18,7 +19,6 @@ export const StyledDivContainer = styled('div', {
     flexWrap: 'wrap',
     marginTop: '1rem',
     gap: '1rem'
-
 })
 
 export const StyledDivItem = styled('div', {
