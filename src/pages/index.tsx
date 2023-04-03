@@ -1,9 +1,9 @@
-import SearchBar from "../components/searchbar";
+import {ContainerStyled} from '../styles/pages/index' 
 
 export default function Home() {
   return (
-    <div>
-      <SearchBar/>
-    </div>
+    <ContainerStyled>
+      
+    </ContainerStyled>
   )
 }

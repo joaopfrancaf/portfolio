@@ -1,6 +1,7 @@
 import { styled } from '../stitches.config'
 
 export const SearchBarDiv = styled('div', {
+    maxWidth: '59.5rem',
     width: 'auto',
     height: '5.375rem',
 
@@ -22,6 +23,7 @@ export const SearchBarDiv = styled('div', {
         outline: 'none',
         flexGrow: 1,
         fontWeight: '700',
+        color: '$textcolor',
 
         '&::placeholder': {
             color: '$textcolor',
