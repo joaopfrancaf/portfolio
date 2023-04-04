@@ -3,10 +3,8 @@ import {styled} from '../stitches.config'
 export const ContainerStyled = styled('div', {
     margin: '2rem',
 
-    display: 'grid',
-    //justifyContent: 'center',
-    gridTemplateColumns: '1fr 1fr 1fr',
-    
+    display: 'flex',
+    justifyContent: 'center',
 })
 
 export const SideStyled = styled('div', {
