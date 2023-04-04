@@ -1,7 +1,7 @@
 import { styled } from '../stitches.config'
 
 export const SearchBarDiv = styled('div', {
-    maxWidth: '59.5rem',
+    minWidth: '59.5rem',
     width: 'auto',
     height: '5.375rem',
 

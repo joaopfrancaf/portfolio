@@ -1,10 +1,11 @@
 import Links from '../components/links'
 import AvatarProfile from '../components/avatarprofile'
-import {ContainerStyled, MainStyled, SideStyled} from '../styles/pages/index' 
+import {CardDiv, ContainerStyled, MainStyled, SideStyled} from '../styles/pages/index' 
 import Tecnologias from '../components/tecnologias'
 import Experiencias from '../components/experiencias'
 import SearchBar from '@/components/searchbar'
 import Card from '../components/card'
+import Post from '@/components/post'
 
 export default function Home() {
   return (
@@ -22,9 +23,15 @@ export default function Home() {
 
       <MainStyled>
         <SearchBar/>
-        <Card/>
-        <Card/>
+
+        <CardDiv>
+          <Card/>
+          <Card/>
+        </CardDiv>
+        
         <SearchBar/>
+
+        <Post/>
       </MainStyled>
 
     </ContainerStyled>

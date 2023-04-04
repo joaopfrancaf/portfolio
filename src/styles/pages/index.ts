@@ -2,7 +2,9 @@ import {styled} from '../stitches.config'
 
 export const ContainerStyled = styled('div', {
     margin: '2rem',
-    
+
+    display: 'flex',
+    justifyContent: 'center',
 })
 
 export const SideStyled = styled('div', {
@@ -12,7 +14,13 @@ export const SideStyled = styled('div', {
 })
 
 export const MainStyled = styled('div', {
-    width: '16rem',
+    width: 'auto',
+    marginLeft: '3rem'
+})
+
+export const CardDiv = styled('div', {
     display: 'flex',
-    flexWrap: 'nowrap',
+    justifyContent: 'space-between',
+    marginTop: '2rem',
+    marginBottom: '2rem',
 })
